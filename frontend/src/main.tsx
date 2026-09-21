@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { CalendarClock, LogOut, Mail, Plus, Upload, X } from 'lucide-react';
 import './index.css';
 
-const API = 'http://localhost:4000';
+const API = import.meta.env.VITE_API_URL || 'http://localhost:4000';
 type Email = { id: string; recipient: string; subject: string; scheduledAt: string; sentAt?: string; status: string; previewUrl?: string };
 
 async function api(path: string, options?: RequestInit) {
