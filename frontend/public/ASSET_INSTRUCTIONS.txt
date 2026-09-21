@@ -1,0 +1,6 @@
+Save the two user-provided assets in this folder with these exact names:
+
+1. Mail forge background.png - the workspace / paper-airplane background image
+2. Mail forge logo.png - the Mailforge logo
+
+The login page loads these files directly from /Mail%20forge%20background.png and /Mail%20forge%20logo.png.
